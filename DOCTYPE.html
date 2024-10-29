@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompassionCare - Helping Seniors & Children</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            color: #333;
+        }
+
+        header {
+            background-color: #6c757d; /* Neutral Gray */
+            padding: 20px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #343a40; /* Dark Gray */
+            padding: 10px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 25px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #6c757d; /* Lighter Gray */
+            border-radius: 5px;
+        }
+
+        .hero {
+            background-color: #ced4da; /* Light Gray */
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            color: #333;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+            color: #495057; /* Neutral Tone */
+        }
+
+        .hero p {
+            font-size: 22px;
+            margin-bottom: 20px;
+            color: #495057;
+        }
+
+        .hero button {
+            padding: 12px 25px;
+            background-color: #343a40; /* Dark Gray */
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .hero button:hover {
+            background-color: #6c757d; /* Lighter Gray */
+        }
+
+        section {
+            padding: 50px 40px;
+            background-color: #f8f9fa;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 40px;
+        }
+
+        .services, .mission {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .service, .mission-content {
+            flex: 1;
+            padding: 30px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .service:hover, .mission-content:hover {
+            transform: translateY(-10px);
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        button {
+            padding: 12px 25px;
+            background-color: #343a40;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 25px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #6c757d;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>CompassionCare</h1>
+        <p>Bridging Generations with Care and Compassion</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="volunteer.html">Volunteer</a>
+        <a href="donate.html">Donate</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Help Us Make a Difference</h1>
+        <p>Together, we can care for seniors and children</p>
+        <button onclick="location.href='volunteer.html'">Volunteer Now</button>
+    </div>
+
+    <!-- Services Section -->
+    <section>
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3><a href="senior-care.html">Support Senior Citizens</a></h3>
+                <p>Offer companionship, healthcare assistance, and more to seniors in need.</p>
+            </div>
+            <div class="service">
+                <h3><a href="child-care.html">Help Children's Homes</a></h3>
+                <p>Support education and personal development for children in care homes.</p>
+            </div>
+            <div class="service">
+                <h3><a href="volunteer.html">Join as a Volunteer</a></h3>
+                <p>Be a part of our volunteer team and help those who need it most.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section>
+        <h2>Our Mission</h2>
+        <div class="mission">
+            <div class="mission-content">
+                <h3>Care for Seniors</h3>
+                <p>We work to improve the lives of elderly citizens, offering essential care and emotional support.</p>
+            </div>
+            <div class="mission-content">
+                <h3>Empower Children</h3>
+                <p>Our focus is on providing children in homes with education, support, and a bright future.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 CompassionCare | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

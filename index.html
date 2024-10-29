@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompassionCare - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+        }
+
+        header {
+            background-color: #2f4f4f;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #404040;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #6c757d;
+            border-radius: 5px;
+        }
+
+        .hero {
+            background-color: #87CEEB;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #4d4d4d;
+        }
+
+        .content {
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: left;
+            line-height: 1.8;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .grid-item {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #2f4f4f;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        button {
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #495057;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to CompassionCare</h1>
+    </header>
+
+    <nav>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="volunteer.html">Volunteer</a>
+        <a href="donate.html">Donate</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Empowering the Elderly and Children in Need</h1>
+        <p>CompassionCare is dedicated to supporting senior citizens and children through companionship, care, and compassion. Join us in making a difference today.</p>
+        <button onclick="location.href='about.html'">Learn More About Us</button>
+    </section>
+
+    <section>
+        <h2>Our Services</h2>
+        <div class="content">
+            <p>At CompassionCare, we provide a variety of services that cater to the emotional, physical, and social needs of the elderly and children in care homes. Here’s how we help:</p>
+            <div class="grid">
+                <div class="grid-item">
+                    <h3>Senior Care</h3>
+                    <p>We offer companionship and social activities for the elderly in old age homes, ensuring they feel valued and cared for. Our services include medical care, fitness programs, and emotional support.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Child Mentorship</h3>
+                    <p>We provide educational resources, mentoring, and emotional support to children in care homes, helping them reach their full potential and grow into confident young individuals.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Health & Wellness</h3>
+                    <p>Through health check-ups, wellness programs, and counseling services, we ensure that both seniors and children receive the care they need to maintain a healthy and happy life.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Community Engagement</h3>
+                    <p>Our community events connect volunteers with those in need, fostering meaningful relationships across generations and creating a more compassionate society.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>How You Can Get Involved</h2>
+        <div class="content">
+            <p>There are many ways to support our cause. Whether you want to volunteer your time, make a donation, or spread the word, every action makes a difference. Here's how you can help:</p>
+            <div class="grid">
+                <div class="grid-item">
+                    <h3>Volunteer</h3>
+                    <p>Spend time with seniors or mentor children in need. No experience is required, just a compassionate heart. Learn more about volunteering opportunities and how to join our team.</p>
+                    <button onclick="location.href='volunteer.html'">Volunteer with Us</button>
+                </div>
+                <div class="grid-item">
+                    <h3>Donate</h3>
+                    <p>Your financial support helps us provide essential services to seniors and children. Every donation, big or small, goes directly toward improving their quality of life.</p>
+                    <button onclick="location.href='donate.html'">Donate Now</button>
+                </div>
+                <div class="grid-item">
+                    <h3>Spread the Word</h3>
+                    <p>Help us raise awareness by sharing our mission with friends, family, and your community. Together, we can create a society that values and cares for its most vulnerable.</p>
+                    <button onclick="location.href='contact.html'">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CompassionCare | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
