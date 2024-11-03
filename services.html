@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - CompassionCare</title>
+    <title>Our Services - CompassionCare</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
+            background-color: #f9f9f9;
             color: #333;
             margin: 0;
         }
 
         header {
-            background-color: #6c757d;
+            background-color: #2f4f4f;
             padding: 20px;
             text-align: center;
             color: white;
@@ -22,12 +23,12 @@
         nav {
             display: flex;
             justify-content: center;
-            background-color: #343a40;
+            background-color: #404040;
         }
 
         nav a {
             color: white;
-            padding: 14px 25px;
+            padding: 14px 20px;
             text-decoration: none;
             text-transform: uppercase;
             font-weight: bold;
@@ -38,13 +39,21 @@
             border-radius: 5px;
         }
 
+        .services-header {
+            background-color: #a8d5ba;
+            color: #333;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
         section {
-            padding: 40px;
+            padding: 50px;
             text-align: center;
         }
 
         h2 {
-            color: #495057;
+            color: #4d4d4d;
+            margin-bottom: 20px;
         }
 
         .content {
@@ -54,14 +63,35 @@
             line-height: 1.8;
         }
 
+        .icon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .icon-item {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .icon-item i {
+            font-size: 40px;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
         footer {
-            background-color: #343a40;
+            background-color: #2f4f4f;
             color: white;
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
+            padding: 20px;
+            position: relative;
             bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
@@ -73,23 +103,51 @@
 
     <nav>
         <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
         <a href="volunteer.html">Volunteer</a>
         <a href="donate.html">Donate</a>
         <a href="contact.html">Contact Us</a>
     </nav>
 
+    <section class="services-header">
+        <h1>Comprehensive Support Services</h1>
+        <p>From senior care to educational support, we offer a range of services that address the physical, emotional, and social needs of those we serve.</p>
+    </section>
+
     <section>
-        <h2>What We Offer</h2>
+        <h2>What We Provide</h2>
         <div class="content">
-            <h3>Senior Care</h3>
-            <p>Our team provides comprehensive care to elderly citizens in old age homes. We offer companionship programs, organize social events, and provide access to healthcare professionals to improve their quality of life. We believe that no senior should feel lonely or neglected, which is why we foster a supportive and vibrant community.</p>
-
-            <h3>Child Development Programs</h3>
-            <p>At CompassionCare, we also focus on the development and well-being of children in care homes. We offer educational resources, mentorship programs, and emotional support to help these children reach their full potential. Our goal is to provide them with the tools and opportunities they need to succeed in life.</p>
-
-            <h3>Volunteer Opportunities</h3>
-            <p>We encourage compassionate individuals to join us as volunteers. Whether it’s spending time with the elderly, tutoring children, or assisting in organizing events, every volunteer's contribution helps us bring love and care to those who need it most.</p>
+            <div class="icon-grid">
+                <div class="icon-item">
+                    <i class="fas fa-heart"></i>
+                    <h3>Senior Care</h3>
+                    <p>Providing companionship, assistance, and emotional support to elderly citizens to combat loneliness and enhance well-being.</p>
+                </div>
+                <div class="icon-item">
+                    <i class="fas fa-school"></i>
+                    <h3>Educational Support</h3>
+                    <p>Offering tutoring, mentorship, and resources to empower children with the knowledge and skills for a brighter future.</p>
+                </div>
+                <div class="icon-item">
+                    <i class="fas fa-apple-alt"></i>
+                    <h3>Nutrition Programs</h3>
+                    <p>Ensuring regular access to healthy meals and nutrition education to support well-being for both seniors and children.</p>
+                </div>
+                <div class="icon-item">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Health and Wellness</h3>
+                    <p>Providing fitness classes, wellness checks, and mental health resources for a healthier lifestyle at every age.</p>
+                </div>
+                <div class="icon-item">
+                    <i class="fas fa-people-arrows"></i>
+                    <h3>Intergenerational Programs</h3>
+                    <p>Connecting generations through joint activities, fostering empathy, and creating bonds that enrich lives.</p>
+                </div>
+                <div class="icon-item">
+                    <i class="fas fa-users"></i>
+                    <h3>Community Engagement</h3>
+                    <p>Organizing events to promote social interaction, community involvement, and shared experiences.</p>
+                </div>
+            </div>
         </div>
     </section>
 
