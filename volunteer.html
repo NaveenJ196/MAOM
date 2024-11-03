@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volunteer - CompassionCare</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
+            background-color: #f9f9f9;
             color: #333;
             margin: 0;
         }
 
         header {
-            background-color: #6c757d;
+            background-color: #2f4f4f;
             padding: 20px;
             text-align: center;
             color: white;
@@ -22,12 +23,12 @@
         nav {
             display: flex;
             justify-content: center;
-            background-color: #343a40;
+            background-color: #404040;
         }
 
         nav a {
             color: white;
-            padding: 14px 25px;
+            padding: 14px 20px;
             text-decoration: none;
             text-transform: uppercase;
             font-weight: bold;
@@ -38,13 +39,26 @@
             border-radius: 5px;
         }
 
+        .volunteer-header {
+            background-color: #a8d5ba;
+            color: #333;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .volunteer-header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
         section {
-            padding: 40px;
+            padding: 50px;
             text-align: center;
         }
 
         h2 {
-            color: #495057;
+            color: #4d4d4d;
+            margin-bottom: 20px;
         }
 
         .content {
@@ -54,14 +68,35 @@
             line-height: 1.8;
         }
 
+        .icon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .icon-item {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .icon-item i {
+            font-size: 40px;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
         footer {
-            background-color: #343a40;
+            background-color: #2f4f4f;
             color: white;
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
+            padding: 20px;
+            position: relative;
             bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
@@ -73,22 +108,42 @@
 
     <nav>
         <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
         <a href="services.html">Services</a>
         <a href="donate.html">Donate</a>
         <a href="contact.html">Contact Us</a>
     </nav>
 
+    <section class="volunteer-header">
+        <h1>Join Our Compassionate Community</h1>
+        <p>Become a part of our volunteer family, bringing joy, care, and support to seniors and children in need. Every hour you give makes a difference!</p>
+    </section>
+
     <section>
-        <h2>Become a Volunteer</h2>
+        <h2>How You Can Volunteer</h2>
         <div class="content">
-            <p>Volunteering with CompassionCare is a fulfilling way to give back to your community. Whether you want to spend time with seniors, mentor children, or help us organize events, your time and energy will make a difference.</p>
-            <p>We provide all the necessary training and support to ensure that our volunteers can make the most of their experience. You can work on your own schedule, and no previous experience is required – just a kind heart and a willingness to help.</p>
-
-            <h3>How to Join</h3>
-            <p>Interested in becoming a volunteer? Fill out our online application form or visit us in person to learn more. After an orientation session, you'll be paired with a senior or a child who needs your support. Together, we can make the world a kinder place.</p>
-
-            <button onclick="location.href='contact.html'">Contact Us to Volunteer</button>
+            <p>Volunteering at CompassionCare is about building connections and creating a lasting impact. We offer various opportunities to get involved based on your skills and interests:</p>
+            <div class="icon-grid">
+                <div class="icon-item">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <h3>Companionship for Seniors</h3>
+                    <p>Spend time with seniors, listen to their stories, play games, and bring companionship to their lives.</p>
+                </div>
+                <div class="icon-item">
+                    <i class="fas fa-book-reader"></i>
+                    <h3>Tutoring and Mentoring</h3>
+                    <p>Help children with homework, encourage learning, and inspire them to achieve their dreams.</p>
+                </div>
+                <div class="icon-item">
+                    <i class="fas fa-users"></i>
+                    <h3>Community Event Support</h3>
+                    <p>Assist in organizing events, activities, and community gatherings to engage seniors and children.</p>
+                </div>
+                <div class="icon-item">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Health and Wellness Programs</h3>
+                    <p>Support health initiatives by helping with exercise, wellness checks, and mindfulness sessions.</p>
+                </div>
+            </div>
         </div>
     </section>
 
