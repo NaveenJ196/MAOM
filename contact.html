@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - CompassionCare</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
+            background-color: #f5f5f5;
             color: #333;
             margin: 0;
         }
 
         header {
-            background-color: #6c757d;
+            background-color: #2f4f4f;
             padding: 20px;
             text-align: center;
             color: white;
@@ -22,7 +23,7 @@
         nav {
             display: flex;
             justify-content: center;
-            background-color: #343a40;
+            background-color: #404040;
         }
 
         nav a {
@@ -39,11 +40,11 @@
         }
 
         section {
-            padding: 40px;
+            padding: 50px;
             text-align: center;
         }
 
-        h2 {
+        h2, h3 {
             color: #495057;
         }
 
@@ -54,12 +55,35 @@
             line-height: 1.8;
         }
 
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .contact-item {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 8px;
+            width: 45%;
+            margin-bottom: 20px;
+        }
+
+        .contact-item i {
+            font-size: 35px;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
         footer {
-            background-color: #343a40;
+            background-color: #2f4f4f;
             color: white;
             text-align: center;
             padding: 10px;
-            position: fixed;
+            position: relative;
             width: 100%;
             bottom: 0;
         }
@@ -80,19 +104,43 @@
     </nav>
 
     <section>
-        <h2>We'd Love to Hear From You</h2>
+        <h2>Get in Touch with Us</h2>
         <div class="content">
-            <p>If you have any questions about our work, want to get involved, or need more information on how to donate, feel free to reach out to us.</p>
-            <p>Email: info@compassioncare.org<br>Phone: +1-800-123-4567</p>
-            <p>Address: 123 Compassion St, Kindness City, CP 12345</p>
+            <p>We are here to assist you with any inquiries, provide information, and explore how we can make a positive impact together. Feel free to contact us through any of the options below.</p>
 
-            <h3>Follow Us on Social Media</h3>
-            <p>Stay updated on our latest activities by following us on social media:</p>
-            <ul>
-                <li>Facebook: CompassionCareOrg</li>
-                <li>Instagram: @CompassionCare</li>
-                <li>Twitter: @CareForAll</li>
-            </ul>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p><a href="mailto:info@compassioncare.org">info@compassioncare.org</a></p>
+                    <p>For general questions, partnership opportunities, and support, reach out to us via email.</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Call Us</h3>
+                    <p>+1 (800) 123-4567</p>
+                    <p>Our team is available Monday to Friday, 9 AM - 6 PM, to answer any questions you may have.</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Visit Us</h3>
+                    <p>123 Compassion St, Kindness City, CP 12345</p>
+                    <p>Drop by our office for in-person support, guided tours, or just a friendly chat.</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-comments"></i>
+                    <h3>Social Media</h3>
+                    <p>Connect with us for updates, stories, and community engagement:</p>
+                    <p>
+                        <a href="https://facebook.com/CompassionCareOrg" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="https://instagram.com/CompassionCare" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="https://twitter.com/CareForAll" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                    </p>
+                </div>
+            </div>
+
+            <h3>Our Hours of Operation</h3>
+            <p>We are open Monday through Friday, from 9 AM to 6 PM. For any urgent inquiries outside these hours, please email us, and we'll get back to you as soon as possible.</p>
         </div>
     </section>
 
